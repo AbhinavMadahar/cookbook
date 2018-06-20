@@ -1,58 +1,190 @@
-\documentclass{amsbook}
+\documentclass[twocolumn]{amsart}
 
-\newthm{rec}{Recipe}
-\newthm{cor}{Corollary}
+\usepackage{enumitem}
+\usepackage[margin=3cm]{geometry}
 
+\setenumerate[0]{label=\arabic*.}
+\setlength{\parskip}{0.8em}
+\setlength{\columnsep}{2cm}
+
+\newtheorem{rec}{Recipe}
+\newtheorem{cor}{Corollary}
+
+\title{Cooking for the Working Mathematician}
 \author{Abhinav Madahar}
-\affil{Rutgers University}
 \email{abhinav.madahar@rutgers.edu}
 \date{\today{}}
 
 \begin{document}
 \maketitle
 
-\tableofcontents{}
+\section{Preface}
+This cookbook is written for academics, who have little money and time for
+food. To make every recipe, only 16 ingredients and 8 cooking tools are
+required, and 16 others ingredients are optional. Every ingredient is cheap,
+and the required ones are available to most American academics. Every recipe
+can be made in under 30 minutes, with most being preparable in under 10.
 
-\chapter{All Ingredients and Tools}
-Every recipe in this book can be made using the following 16 ingredients:
-\begin{itemize}
+I formatted the recipes to resemble mathematical proofs. Many recipes have
+"corollaries" which slightly modify the recipe. The 16 optional ingredients are
+restricted to these corollaries.
+
+\section{All Ingredients and Tools}
+Every recipe in this book can be made using the following ingredients:
+\begin{enumerate}
+	\item Black beans
+	\item White beans
+	\item Garbanzo beans
+	\item Instant oatmeal (i.e. microwavable)
+	\item Peanut butter
+	\item Bananas
+	\item Apples
 	\item Tofu
 	\item Instant ramen
+	\item Coconut oil
 	\item Sesame oil
-	\item Soy sauce
+	\item Vegetable boullion
 	\item Lemon pepper
-\end{itemize}
+	\item Paprika
+	\item Cilantro
+	\item Soy sauce
+\end{enumerate}
 
-Additionally, you can change the recipes by using the following 16 ingredients:
-\begin{itemize}
-	\item Plantains
-\end{itemize}
+Additionally, you can change the recipes by using the following ingredients:
+\begin{enumerate}
+	\item Plantains, ripe (i.e. yellow and brown coloured)
+	\item Oregano
+	\item Ground ginder
+	\item Cinnamon
+	\item Scallions
+\end{enumerate}
 
-\chapter{Recipes}
+The recipes use these tools:
+\begin{enumerate}
+	\item Pan
+	\item Pot
+	\item Microwave
+	\item Pressure cooker
+	\item Cutting board
+	\item Large bowl
+	\item Spatula
+	\item Ladel
+	\item Knife
+\end{enumerate}
+
+\section{Recipes}
+
+\begin{rec} Red and green garbanzo beans. \end{rec}
+
+Time: 3 minutes.
+
+Ingredients.
+\begin{enumerate}
+	\item Garbanzo beans, 1 cup.
+	\item Paprika, 1 tablespoon.
+	\item Lemon pepper, 1 teaspoon.
+	\item Cilantro, 4 leaves.
+\end{enumerate}
+
+No tools required.
+
+Directions.
+\begin{enumerate}
+	\item Rinse garbanzo beans and scallion.
+	\item Cut scallion into 2cm-long pieces.
+	\item Mix all ingredients.
+\end{enumerate}
+
+\vspace{1em}
+\begin{cor} Red and green garbanzo beans with scallions. \end{cor}
+
+Rinse a scallion and cut it into 2cm-long pieces. Then add it to
+the beans.
+
+\vspace{3em}
+
+\begin{rec} Oatmeal with peanut butter and banana. \end{rec}
+
+Time: 3 minutes.
+
+Ingredients.
+\begin{enumerate}
+	\item Instant oatmeal, $\frac{1}{2}$ cup dried.
+	\item Peanut butter, 2 tbsp.
+	\item Banana.
+\end{enumerate}
+
+Tools.
+\begin{enumerate}
+	\item Add $\frac{1}{2}$ cup of water to the oatmeal.
+	\item Microwave the oatmeal.
+	\item Mix the peanut butter into the oatmeal.
+	\item Cut banana into slices using the spoon.
+	\item Add banana slices to oatmeal.
+\end{enumerate}
+
+\vspace{1em}
+\begin{cor} Oatmeal++ \end{cor}
+Add a few dashes of ground ginger and cinnamon.
+
+\vspace{3em}
+
+\begin{rec} Tofu with Apples \end{rec}
+
+Time: 5 minutes.
+
+Ingredients.
+\begin{enumerate}
+	\item Extra firm tofu, half of a slab
+	\item McIntosh Apple, 1 apple
+	\item Coconut oil, a teaspoon
+\end{enumerate}
+
+Tools.
+\begin{enumerate}
+	\item Pan
+	\item Cutting board.
+	\item Knife.
+\end{enumerate}
+
+Directions.
+\begin{enumerate}
+	\item Cut the tofu and apple into small pieces, each between
+		1cm\textsuperscript{2} and 2cm\textsuperscript{2}.
+	\item Place tofu and apple pieces into the pan with the coconut oil.
+	\item Cook in pan for 3 minutes under medium-high heat while stirring
+		every 10 seconds.
+\end{enumerate}
+
+\vspace{3em}
+
 \begin{rec} Tofu with ramen. \end{rec}
 
-\textit{Ingredients:}
+Time: 10 minutes.
 
-\begin{itemize}
+Ingredients.
+
+\begin{enumerate}
 	\item Extra firm tofu, half-block
 	\item Instant ramen, 1 block
 	\item Sesame oil, 1 tbsp
 	\item Soy sauce, 1 tbsp
 	\item Lemon pepper, 1 tsp
-\end{itemize}
+\end{enumerate}
 
-\textit{Required tools.}
-\begin{itemize}
+Required tools.
+\begin{enumerate}
 	\item Pan
 	\item Spatula
 	\item Filter
-\end{itemize}
+	\item Knife
+\end{enumerate}
 
-\textit{Directions.}
+Directions.
 
-\begin{itemize}
-	\item Begin enough water to submerge ramen block.
-	\item Chop tofu into 1\ cm\textsuperscript{2}-sized blocks.
+\begin{enumerate}
+	\item Start boiling enough water to submerge ramen block.
+	\item Chop tofu into 1cm\textsuperscript{2}-sized blocks.
 	\item Warm tofu and plantains in a pan with medium-low heat while applying
 		the sesame oil.
 	\item Once the water is boiling, put the ramen in.
@@ -60,15 +192,67 @@ Additionally, you can change the recipes by using the following 16 ingredients:
 		water over the filter.
 	\item Pour the ramen into the same pan as the tofu.
 	\item Add soy sauce and lemon pepper.
-\end{itemize}
+\end{enumerate}
 
-QED.
+\vspace{1em}
 
 \begin{cor} Tofu with ramen and plantains. \end{cor}
-\textit{Ingredients.} the same as before, but add a medium or large ripe
-(yellow and brown) plantain.
+Chop a plantain into slices 1cm thick and cook with the tofu.
 
-\textit{Directions.} the same as before, but chop the plantain into slices 1\
-cm thick and cook with tofu.
+\vspace{3em}
+
+\begin{rec} Beans and rice. \end{rec}
+
+Time: 10 hours.
+
+Ingredients.
+
+\begin{enumerate}
+	\item Black beans, $\frac{3}{4}$ cup dried
+	\item White beans, $\frac{3}{4}$ cup dried
+	\item Rice, $\frac{1}{4}$ cup dried
+	\item Coconut oil, 1 tsp
+	\item Vegetable boullion, 1 cube
+\end{enumerate}
+
+Tools.
+
+\begin{enumerate}
+	\item Pressure cooker
+	\item Large bowl
+	\item Pan
+	\item Pot (optional, makes boiling rice easier)
+\end{enumerate}
+
+Directions.
+
+\begin{enumerate}
+	\item Soak the beans overnight in a bowl of water. Make sure that the water
+		line is about an inch above the beans.
+	\item Cook in pressure cooker by pouring the beans in it, filling it with just enough to water to completely cover the beans, and cooking on medium heat. Once the pressure cooker whistles, turn it down to the lowest heat for 10 minutes.
+	\item Pour cold water on pressure cooker.
+	\item Pour out beans and rinse in cold water.
+	\item Rinse rice in cold water.
+	\item Boil rice in a pot with $\frac{3}{2}$ cups water on medium heat. Stop
+		when all the water is absorbed by the rice, which makes it very soft,
+		almost like sticky rice.
+	\item Heat beans in a pan with the oils until they're warm throughout.
+	\item Pour rice into pan with beans.
+	\item Mix remaining spices, herbs, seasonings, and sauces.
+\end{enumerate}
+
+\vspace{1em}
+\begin{cor} Beans and rice -- earthy. \end{cor}
+Add 5 shakes of oregano.
+
+\vspace{1em}
+\begin{cor} Beans and rice -- salty. \end{cor}
+Add 1 tbsp of soy sauce.
+
+\section{About the Author}
+
+Abhinav Madahar is an undergraduate at Rutgers University studying mathematics
+and computer science. He researches machine learning's use in natural language
+processing and medicine.
 
 \end{document}
